@@ -1,0 +1,5 @@
+create table address (id serial, street varchar, city varchar, zip varchar);
+
+insert into address (street, city, zip) values ('street 1', 'city 1', 'zip1@mail.com');
+insert into address (street, city, zip) values ('street 2', 'city 2', 'zip2@mail.com');
+insert into address (street, city, zip) values ('street 3', 'city 3', 'zip3@mail.com');
